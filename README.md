@@ -1,5 +1,3 @@
->📋  A template README.md for code accompanying a Machine Learning paper
-
 # Multilabel Classification and Caption Generation for Medical Images using Graph Neural Networks
 
 ## Abstract
@@ -24,7 +22,7 @@ We do the link prediction task on the heterogeneous graph for the image-word typ
 ### Caption Generation
 In this task, we pass the combined image+text embedding to a seq2seq transformer-based encoder-decoder model to generate the final caption.
 
-## Requirements
+<!-- ## Requirements
 
 To install requirements:
 
@@ -47,14 +45,11 @@ To evaluate my model on ImageNet, run:
 
 ```eval
 python eval.py --model-file mymodel.pth --benchmark imagenet
-```
-
->📋  Describe how to evaluate the trained models on benchmarks reported in the paper, give commands that produce the results (section below).
+``` -->
 
 ## Multilabel Classification Results
 
 Our model achieves the following performance on :
-\
 ### Open-I Dataset
 ![openi_result](https://user-images.githubusercontent.com/17990196/208685422-7fbbc476-f375-46c8-84fe-4d6b1e641930.jpeg)
 
@@ -65,5 +60,4 @@ Our model achieves the following performance on :
 >📋  Include a table of results from your paper, and link back to the leaderboard for clarity and context. If your main result is a figure, include that figure and link to the command or notebook to reproduce it. 
 
 ### Qualitative Results
-
 Results
