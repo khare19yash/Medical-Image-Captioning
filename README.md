@@ -55,7 +55,9 @@ Our model achieves the following performance on :
 
 | Dataset         | Method  | B1 | B2 | B3| B4 | Rogue-L | Meteor |  
 | ------------------ |---------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- |
-| Open-I  | Our  | B1 | B2 | B3| B4 | Rogue-L | Meteor |
+| Open-I  | Our  | 0.374 | 0.242 | 0.162 | 0.106 | 0.340 | 0.180 |
+| ------------------ |---------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- |
+| Open-I  | SOTA  | 0.473 | 0.305 | 0.217 | 0.162 | 0.378 | 0.186 |
 
 >📋  Include a table of results from your paper, and link back to the leaderboard for clarity and context. If your main result is a figure, include that figure and link to the command or notebook to reproduce it. 
 
