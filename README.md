@@ -10,12 +10,9 @@
 >📋  Optional: include a graphic explaining your approach/main result, bibtex entry, link to demos, blog posts and tutorials
 
 ## Method
+![pipeline](https://user-images.githubusercontent.com/17990196/208685370-4244e4d5-e6fb-4153-a86d-edeceea8c098.jpg)
 
-![Model Pipeline](images/pipeline.jpg?raw=true "Pipeline")
-
-![Model Pipeline](./images/pipeline.jpg?raw=true "Pipeline")
-
-![Heterogeneous Graph](./images/graph.jpg?raw=true "Graph")
+![graph](https://user-images.githubusercontent.com/17990196/208685288-dad4c1e5-582f-4954-bade-b7d8c0e95cb1.jpg)
 
 ## Requirements
 
@@ -52,8 +49,7 @@ python eval.py --model-file mymodel.pth --benchmark imagenet
 Our model achieves the following performance on :
 \
 ### Open-I Dataset
-
-![Results](./images/openi_result.jpeg?raw=true "Pipeline")
+![openi_result](https://user-images.githubusercontent.com/17990196/208685422-7fbbc476-f375-46c8-84fe-4d6b1e641930.jpeg)
 
 | Dataset         | Method  | B1 | B2 | B3| B4 | Rogue-L | Meteor |  
 | ------------------ |---------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- |
