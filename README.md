@@ -56,10 +56,14 @@ Our model achieves the following performance on :
 | Dataset         | Method  | B1 | B2 | B3| B4 | Rogue-L | Meteor |  
 | ------------------ |---------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- |
 | Open-I  | Our  | 0.374 | 0.242 | 0.162 | 0.106 | 0.340 | 0.180 |
-| ------------------ |---------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- |
 | Open-I  | SOTA  | 0.473 | 0.305 | 0.217 | 0.162 | 0.378 | 0.186 |
 
 >📋  Include a table of results from your paper, and link back to the leaderboard for clarity and context. If your main result is a figure, include that figure and link to the command or notebook to reproduce it. 
 
-### Qualitative Results
-Results
+## Qualitative Results
+
+### Generated Captions
+1. The heart size and mediastinal silhouette are within normal limits for contour the lungs are clear no focal consolidation pneumothorax or pleural effusion no acute cardiopulmonary abnormalities.
+2. Clear no focal consolidation pleural effusion or pneumothorax is seen there are degenerative changes of the thoracic spine no acute cardiopulmonary abnormality stable left chest radiograph
+
+
