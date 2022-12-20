@@ -45,12 +45,13 @@ To evaluate my model on ImageNet, run:
 python eval.py --model-file mymodel.pth --benchmark imagenet
 ``` -->
 
-## Multilabel Classification Results
+## Results
 
-Our model achieves the following performance on :
-### Open-I Dataset
+Our model achieves the following performance on Open-I Dataset (Chest X-ray Image + Caption):
+### Multilabel CLassification
 ![openi_result](https://user-images.githubusercontent.com/17990196/208685422-7fbbc476-f375-46c8-84fe-4d6b1e641930.jpeg)
 
+### Caption Genration
 | Dataset         | Method  | B1 | B2 | B3| B4 | Rogue-L | Meteor |  
 | ------------------ |---------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- |
 | Open-I  | Our  | 0.374 | 0.242 | 0.162 | 0.106 | 0.340 | 0.180 |
