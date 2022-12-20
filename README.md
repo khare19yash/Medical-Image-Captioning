@@ -15,15 +15,14 @@ We propose a graph-based approach to create a mapping between image and text (ke
 
 ![pipeline](https://user-images.githubusercontent.com/17990196/208685370-4244e4d5-e6fb-4153-a86d-edeceea8c098.jpg)
 
-1. Multilabel Classification using Link Prediction
-   We build a heterogeneous graph with two node types: image and words (keywords extracted from training corpus). The image node embedding is extracted from a pretrained ResNet152 model, and the word node embedding is extracted from BERT. The graph contains three types of links between these nodes: image-image links, word-word links, and image-word links.
-   
-   
-3. Caption Generation
-
-
+### Multilabel Classification using Link Prediction
+We build a heterogeneous graph with two node types: image and words (keywords extracted from training corpus). The image node embedding is extracted from a pretrained ResNet152 model, and the word node embedding is extracted from BERT. The graph contains three types of links between these nodes: image-image links, word-word links, and image-word links.
+We do the link prediction task on the heterogeneous graph for the image-word type links to get the keywords for each image. For this, we apply the GraphSAGE layer with a mean aggregator for each type of node in the link (image and text).
 
 ![graph](https://user-images.githubusercontent.com/17990196/208685288-dad4c1e5-582f-4954-bade-b7d8c0e95cb1.jpg)
+   
+### Caption Generation
+In this task, we pass the combined image+text embedding to a seq2seq transformer-based encoder-decoder model to generate the final caption.
 
 ## Requirements
 
@@ -32,9 +31,6 @@ To install requirements:
 ```setup
 pip install -r requirements.txt
 ```
-
->📋  Describe how to set up the environment, e.g. pip/conda/docker commands, download datasets, etc...
-
 ## Training
 
 To train the model(s) in the paper, run this command:
