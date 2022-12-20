@@ -11,6 +11,8 @@
 
 ## Method
 
+![Model Pipeline](images/pipeline.jpg?raw=true "Pipeline")
+
 ![Model Pipeline](./images/pipeline.jpg?raw=true "Pipeline")
 
 ![Heterogeneous Graph](./images/graph.jpg?raw=true "Graph")
