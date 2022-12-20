@@ -11,9 +11,9 @@
 
 ## Method
 
-![Model Pipeline](/images/pipeline.jpg?raw=true "Pipeline")
+![Model Pipeline](./images/pipeline.jpg?raw=true "Pipeline")
 
-![Heterogeneous Graph](/images/graph.jpg?raw=true "Graph")
+![Heterogeneous Graph](./images/graph.jpg?raw=true "Graph")
 
 ## Requirements
 
@@ -51,7 +51,7 @@ Our model achieves the following performance on :
 \
 ### Open-I Dataset
 
-![Results](/images/openi_result.jpeg?raw=true "Pipeline")
+![Results](./images/openi_result.jpeg?raw=true "Pipeline")
 
 | Dataset         | Method  | B1 | B2 | B3| B4 | Rogue-L | Meteor |  
 | ------------------ |---------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- |
